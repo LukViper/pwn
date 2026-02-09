@@ -1,0 +1,11 @@
+1.Matching with * 
+cd ch* ----> changes to challenge as globbing requires less than 4 char
+cd ch* -----> to be in the /challenge dir  
+pwd ---> to confirm the directory
+./run ----> get the flag (running the file ) 
+2.Matching with ? 
+cd ?ha??enge/ ----> challenge to use ? in place of c and l 
+cd ?ha??enge/ -----> to be in the /challenge dir  
+pwd ---> to confirm the directory
+./run ---> get the flag (rnning the flag) 
+
