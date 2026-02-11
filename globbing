@@ -1,11 +1,32 @@
 1.Matching with * 
 cd /ch* ----> changes to challenge as globbing requires less than 4 char  
 pwd ---> to confirm the directory
-./run ----> get the flag (running the file ) 
+./run ----> get the flag (running the file )
+ 
 2.Matching with ? 
 cd /?ha??enge/ ----> challenge to use ? in place of c and l 
 pwd ---> to confirm the directory
 ./run ---> get the flag (rnning the flag) 
+
 3.Matching with []
 cd /challenge/file ----> change the dir to /challenge/files\
 /challenge/run file_[b,a,h,s] ---->gives the flag  
+
+4.Matching paths using []
+/challenges/run /challenges/files/file_[b,a,s,h] ---> gives the flag 
+
+5.Multiple globs 
+cd /challenge/files ---> change the dir 
+/challenge/run *p* ----> runs the files with a p in their name and gives teh falg 
+
+6.Mixing Glob 
+cd /challenge/flag
+/challenge/run [cep]* ----> checks and runs only the files with c , e , and p in starting 
+
+7.Exclusionary Globbing 
+cd /challlenge/files 
+/challenge/run [^pwn]* ------> '^' used inside [], helps to negate the files without starting from p,w,n  
+
+8.Tab Completion , 9.Multiple options for tab completion 
+just to use 'Tab' button
+
