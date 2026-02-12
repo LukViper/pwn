@@ -1,12 +1,1 @@
-1.Redirecting Output 
-echo PWN >> COLLEGE ------> ">>" redirects the message (on left side /before >> ) to (on right side / after) without overwirtting 
-
-2.Redireting more output 
-/challenge/run >> myflaf ------> this redirects the output of /challenge/run in myflag 
-
-3.Appending Output
-/challenge/run >> the-flag  -----> need to do this two times to get the flag 
-/challenge/run >> the-flag
-
-4. 
 
