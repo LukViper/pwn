@@ -1,0 +1,1 @@
+mov rax, 60 ------> moves rax to 60 (command source destiantion)
